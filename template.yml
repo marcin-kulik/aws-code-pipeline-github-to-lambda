@@ -5,7 +5,7 @@ Resources:
   TimeFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
+      Handler: com.LambdaMethodHandler::handleRequest
       Runtime: java8
       CodeUri: s3://electrolink-lambda-deployment-artifacts-123456789012/code/
       Events:
