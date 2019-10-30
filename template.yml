@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: java8
-      CodeUri: ./
+      CodeUri: s3://electrolink-lambda-deployment-artifacts-123456789012
       Events:
         MyTimeApi:
           Type: Api
